@@ -14,7 +14,9 @@ the state change. it essentailly define the fucntion and let the program work ac
 4. Machine Learning: this includes Lisp, Tensorflow, Pytorch. fundamentally these lang. are used for deep learning paradigm and
 uses graph programming paradigm to do data processing and testing.
 ###################################################################################################
-
+Python is a programmaing language that was created by Guido von Rossum in 1990. It is imperative, interpreted, dynamic and
+high-level language. If anyone is required to start programming, this be the language to be used. It is a good language for 
+communicating with the machine.
 
 
 
