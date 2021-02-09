@@ -1,1 +1,20 @@
-Python is a programming language designed to be used in AI 
+According to geohot there are four paradigms of programmig (on a high - level these are the languages that a normal programmar will
+encounter):
+
+1. Imperative: Imperative in english means something important. In programming, it is to follow steps to make the required 
+changes to the state of the program. it follows each line of code serially. for instance: park a car. step 1, step 2 etc. 
+Java and Python are considered imperative.
+
+2. Hardware: these are languages that execute all the commands simulataneously. this is similar to the working of hardware. this includes
+Coq and VHDL.
+
+3. functional: these are languages in which the commands are functions itself. the commands are not serial and do not dictate
+the state change. it essentailly define the fucntion and let the program work accordingly. eg: Haskell.
+
+4. Machine Learning: this includes Lisp, Tensorflow, Pytorch. fundamentally these lang. are used for deep learning paradigm and
+uses graph programming paradigm to do data processing and testing.
+###################################################################################################
+
+
+
+
