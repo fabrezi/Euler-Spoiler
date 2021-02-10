@@ -13,6 +13,16 @@ the state change. it essentailly define the fucntion and let the program work ac
 
 4. Machine Learning: this includes Lisp, Tensorflow, Pytorch. fundamentally these lang. are used for deep learning paradigm and
 uses graph programming paradigm to do data processing and testing.
+
+Q. what is the difference between library and framework?
+A. Python eg. that can be used. sklearn is lib, while flask is a framework. essentially, both are used in API. lib. contains the function,
+framework provides the skeleton of the application and API puts them both together. Both are also written by other dev. that we implement.
+the key difference is that the code calls lib. while framework calls the code. this also defines Inversion of Control. (IoC).
+
+A library is just a collection of class definitions. The reason behind is simply code reuse, i.e. get the code that has already been written by other developers. The classes and methods normally define specific operations in a domain specific area. For example, there are some libraries of mathematics which can let developer just call the function without redo the implementation of how an algorithm works.
+
+In framework, all the control flow is already there, and there's a bunch of predefined white spots that you should fill out with your code. A framework is normally more complex. It defines a skeleton where the application defines its own features to fill out the skeleton. In this way, your code will be called by the framework when appropriately. The benefit is that developers do not need to worry about if a design is good or not, but just about implementing domain specific functions.
+
 ###################################################################################################
 Python is a programmaing language that was created by Guido von Rossum in 1990. It is imperative, interpreted, dynamic and
 high-level language. If anyone is required to start programming, this be the language to be used. It is a good language for 
