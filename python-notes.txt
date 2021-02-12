@@ -31,6 +31,17 @@ fill out with your code. A framework is normally more complex. It defines a skel
 its own features to fill out the skeleton. In this way, your code will be called by the framework when appropriately.
 The benefit is that developers do not need to worry about if a design is good or not, but just about implementing domain specific functions.
 
+Q. what is the difference between imperative vs declarative programming>
+A. imperative program tells the compiler of how to achieve the desired results, step by step. for instance:
+find odd numbers from list of 1 - 100. 
+ if (num% 2 != 0):
+  put it in odd list
+ else
+   null
+ declarartive is subtle, as it tells the compiler of what the desired outcome should be but not how to achieve it. we see similar
+ example in python porgram. (though python is imperative in design).
+ control-flow is the execution of the indiviual statements or commands in step by step method, such as one found in imperative programs. control flow is a
+ part of loop copnstructs.
 ###################################################################################################
 Python is a programmaing language that was created by Guido von Rossum in 1990. It is imperative, interpreted, dynamic and
 high-level language. If anyone is required to start programming, this be the language to be used. It is a good language for 
