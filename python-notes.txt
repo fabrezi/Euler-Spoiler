@@ -47,5 +47,6 @@ Python is a programmaing language that was created by Guido von Rossum in 1990. 
 high-level language. If anyone is required to start programming, this be the language to be used. It is a good language for 
 communicating with the machine.
 
-
+Q. what is deep learning? how does it differ from machine learnin?
+A.
 
