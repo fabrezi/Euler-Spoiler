@@ -12,7 +12,7 @@ def multiple(n):
             #print(listi)
             print(sum(listi))
     return sum(listi)
-
+print(multiple(10))
 
 
 if __name__ == "__main__":
