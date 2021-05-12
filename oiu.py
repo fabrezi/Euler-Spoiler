@@ -56,4 +56,19 @@ if __name__ == "__main__":
 #Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
 ####################################################
 
+#################
+#problem07
+#############
 
+
+##################
+#problem08
+#################
+
+###############
+#problem09
+###########
+
+################
+#problem10
+##############
