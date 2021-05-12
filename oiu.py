@@ -40,3 +40,20 @@ if __name__ == "__main__":
 #numbers is 9009 = 91 × 99.
 #Find the largest palindrome made from the product of two 3-digit numbers.
 ########################################
+
+#######################################################
+#2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+#What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+##########################################################
+
+###################################################
+#The sum of the squares of the first ten natural numbers is,
+
+#The square of the sum of the first ten natural numbers is,
+
+#Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is .
+
+#Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
+####################################################
+
+
