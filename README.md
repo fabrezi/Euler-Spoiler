@@ -1,2 +1,2 @@
 # Euler-Spoiler
-Solve Project Euler Questions in Python
+Solve Project Euler Questions in Java
