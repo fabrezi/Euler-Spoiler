@@ -1,0 +1,14 @@
+Q1. what is fibonacci sequence of numbers
+Q2. return the nth value f the fibonacci sequence recursively
+Q3. return the n th value of fibonnaci sequence. Solve in O(n) time
+Q4. What is golden ratio
+Q5. Display startnumber to endnumber only from fibo sequence
+Q6. get the nth fibo number in O(n) time and O(1) space complexity
+Q7. Binet formula: how to calculate fibo numbers without recursion or iteration
+Q8. calculate the nth fibo number using tail recursion
+Q9. expalin fibonacci search technique
+Q10. get fibonacci number O(logn) time using matrix exponentiation
+Q11.how to use memoization for the nth fibonacci number
+Q12. test if a number belongs to fibonacci series
+Q13. can a fibo function be written to execute in O(1) time
+Q14. generate fibo sequence using ES6 generator function
