@@ -13,8 +13,9 @@ public class eu02 {
         int j = 2;
         int sum = 0;
         while(i <= 4000000){
-            if(i % 2 == 0)
+            if(i % 2 == 0){
                 sum = sum + i;
+            }
                 int k = i + j;
                 i = j;
                 j = k;
