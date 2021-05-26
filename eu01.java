@@ -20,3 +20,26 @@ public class eu01 {
 
     }
 }
+
+////////////////////////////
+//trial# 2
+///////////////////////////
+
+public class eu01 {
+
+   static int multiple(int n){
+       int sum = 0;
+       for(int i = 0; i < n; i++){
+           if(i% 3 == 0 || i % 5 == 0){
+               sum = sum + i;
+           }
+       }
+       return sum;
+    }
+    public static void main(String[] args){
+       int n = 10;
+       System.out.println(multiple(n));
+    }
+
+
+}
