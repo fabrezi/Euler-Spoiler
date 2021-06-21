@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <iostream>
 
-//code reuires work. breaks down at larger digits.//
 
-long primou(long n){
+long primou(long long n){
     long factor = 1;
     for(int i = 2; i <= n; i++){
         if(n % 1 == 0){
