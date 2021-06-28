@@ -8,6 +8,7 @@ public class eu01 {
 
     public static int Sumo(int [] InputArray){
         int max = Integer.MIN_VALUE;
+        //InputArray.length counts from 1. not 0.
         for(int i = 0; i < (InputArray.length - 1); i++){
             int count = InputArray[i] * InputArray[i+1];
             if (count > max){
