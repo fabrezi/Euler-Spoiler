@@ -1,0 +1,3 @@
+these are practice problems in python for leetcode questions.
+
+Cheers Bitch!!
