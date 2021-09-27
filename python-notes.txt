@@ -76,6 +76,8 @@ case "Dan"  System.out.print("Dan")
 
 -----
 
+Q. what is the first line where the object contianed in the variable s would be avalaible for garbage collection.
+
 Students s = new Student("James", 20);
 if(s.notNull()){
   System.out.println(s.name);
