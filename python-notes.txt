@@ -50,3 +50,50 @@ communicating with the machine.
 Q. what is deep learning? how does it differ from machine learnin?
 A.
 
+#######################################################3
+########################################################
+
+JAVA-INTERVIEW-QUESTION::
+
+Q1. explain the difference between double and float
+Q2. explain the difference between string and string buffer
+Q3. what are java generics? give some example of how you would use generics?
+Q4. what are java collections. list the collections you know
+Q5. waht is a java thread. give an example
+
+
+----
+what is the outout of the following code
+
+String a = "Christine":
+
+switch(a){
+case "Susan": System.out.print("Susuan");
+case "Christine":
+case "Abe": System.out.print("Abe");
+case "Dan"  System.out.print("Dan")
+}
+
+-----
+
+Students s = new Student("James", 20);
+if(s.notNull()){
+  System.out.println(s.name);
+  System.out.println(s.age);
+  s=null;
+  }
+  System.out.println("Next Student");
+  s = new Student("Rosie", 19);
+  if(s.notNull()){
+  System.out.println(s.anme);
+  System.out.println(s.age);
+  s=null;
+  }
+  
+  -----------
+  
+  write a java program which to find the most repeated word in a string and count how many times that word occurs in the string:
+  
+  the quick brown fox jumps over the lazy dog.
+  count-the = 2
+
