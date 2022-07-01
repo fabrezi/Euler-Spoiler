@@ -76,60 +76,39 @@ System.out.println("Hi, " + name + "."); // Writing output to STDOUT
 
 // Write your code here
 
+public class zoo {
 
- 
+    static String zoos(String w){
+        String[] arrofw = w.split(" ");
+        int z_count = 0;
+        int o_count = 0;
+        String msg;
 
-Scanner sc = new Scanner (System.in);
+        for(int i = 0; i < arrofw.length; i++){
+            if(arrofw[i].equals("z")){
+                z_count++;
+            }
+            if(arrofw[i].equals("o")){
+                o_count++;
+            }
+        }
 
-int zcount = 0;
+        if(2 * z_count == o_count){
+            msg = "true";
+        }
+        else{
+            msg = "false";
+        }
 
-int ocount = 0;
+        return msg;
+    }
 
-String word = sc.next();
+    public static void main(String[] args){
+        String w = "zoo";
+        System.out.println(zoos(w));
 
-int length = word.length();
-
-String[] arr = word.split("");
-
-for (int i=0; i<length; i++)
-
-{
-
-if (arr[i].equals("z"))
-
-{
-
-zcount++;
-
+    }
 }
 
-else if (arr[i].equals("o"))
 
-{
-
-ocount++;
-
-}
-
-}
-
-if (2*zcount == ocount)
-
-{
-
-System.out.print("Yes");
-
-}
-
-else
-
-{
-
-System.out.print("No");
-
-}
-
-}
-
-}
 
