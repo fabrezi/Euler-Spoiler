@@ -7,21 +7,10 @@ public class CloseToZero {
 
     public static int close(int[]A,int N){
         int closest = A[0];
-        int t;
         for(int i = 0; i < N; i++){
-            for(int j = 1; j < N-1; j++){
-                if(A[i] == 0){
-                    closest = A[i];
-                }
-                if(A[i] > A[j]){
-                    t = A[i];
-                    A[i] = A[j];
-                    A[j] = t;
-                }
-                if(A[i] < A[j]){
-                    closest = A[i];
-                }
-            }
+           if(A[i] < closest){
+               closest = A[i];
+           }
 
         }
 
@@ -31,7 +20,7 @@ public class CloseToZero {
 
     public static void main(String[] args){
         int[]A = new int[]{2,3,45,1};
-        int N = 3;
+        int N = 4;
 
         System.out.println(close(A,N));
 
